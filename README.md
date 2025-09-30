@@ -9,18 +9,22 @@ This backend project provides secure REST APIs for managing entities and handlin
 
 🏢 Supplier Management – CRUD operations for suppliers and their product catalogs.
 
-📦 Product Management – Manage products, categories, and supplier mappings.
+📦 Product Management – Manage products, and supplier mappings.
 
-🛒 Order Management – Place, update, cancel, and view customer orders.
+🛒 Order Management – Place, update, delete, and view customer orders.
 
-🔄 Entity Relationships – Customers place orders for products supplied by vendors.
+🔄 Entity Relationships – Customers place orders for products supplied by suppliers.
 
-🌐 RESTful APIs – Well-documented APIs with Swagger.
+🌐 RESTful APIs – Well-documented APIs with Postman.
 
 **Tech Stack:**
 
 Backend: Spring Boot, Spring Data JPA.
+
 Database: PostgreSQL
+
 Authentication: JWT (JSON Web Token)
+
 API Documentation: Postman
+
 Build Tool: Maven
